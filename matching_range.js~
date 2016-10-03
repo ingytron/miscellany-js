@@ -1,0 +1,15 @@
+function sum_matching_range(x1, x2, y1, y2) {
+	var sum = 0;
+    for (var i = x1; i <= x2; i++) {
+        if (i < y1){
+            continue; 
+        }
+        else if (i >= y1 && i <= y2) {
+            sum += i;
+            console.log(sum);
+        }
+    }
+    return sum;
+}
+
+sum_matching_range(2, 5, 3, 7);

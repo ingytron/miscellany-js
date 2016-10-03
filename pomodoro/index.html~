@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- index:noindex wherever it belongs -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">  
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Set the timer for success! A Pomodoro Timer</title>
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,700' rel='stylesheet' >
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <a class="btn btn-default" href="#" role="button">Link</a>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-responsive title-logo" src="http://placehold.it/100x100" alt="placeholder">
+      </div>
+      <div class="col-md-6 text-right">
+        <h1 class="text-uppercase title-super">Ingrid Molloy</h1>
+        <h3>Designer with a Heart of Code&trade;  </h3>
+      </div>
+    </div>
+    <div class="row">
+      	<div class="col-md-12"> 
+		</div>
+	</div>
+
+
+<!-- Start a 25 min pomodoro. Timer goes off after 25 mins. -->
+<!-- Reset the clock for another / new pomodoro --> 
+
+
+  </body>
+
+</html>

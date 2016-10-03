@@ -1,0 +1,16 @@
+function findLongestWord(str) {
+
+// split the array using "" to get individual elements
+
+var wordList = str.toLowerCase().split(" ");
+
+
+currentWord = wordList[1];
+console.log(wordList);
+console.log(wordList[1])
+
+for (i = 0; i < currentWord.length; i ++) { console.log(currentWord[i]); } 
+
+};
+
+findLongestWord('The quick brown fox jumped over the lazy dog');

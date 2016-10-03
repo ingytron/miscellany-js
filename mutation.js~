@@ -1,0 +1,15 @@
+// Are the letters of the  second word contained in the first?
+function mutation(arr) {
+    var outerWord = arr[0].toLowerCase().split(""); // target
+    var innerWord = arr[1].toLowerCase().split(""); //test
+    
+    for (i = 0; i < innerWord.length; i += 1); {
+        if (outerWord.indexOf(innerWord[i]) < 0)
+        //console.log("false");
+        return false;
+    }
+  //console.log('true');
+  return true;
+}
+
+mutation(['hello', 'hey']);
